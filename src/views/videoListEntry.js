@@ -21,7 +21,3 @@ var VideoListEntryView = Backbone.View.extend({
 
 });
 
-
-
-
-
