@@ -11,6 +11,7 @@ var Videos = Backbone.Collection.extend({
   },
 
   search: function(text) {
+    console.log('search for', text);
     this.fetch({
       data: {
         q: text,
